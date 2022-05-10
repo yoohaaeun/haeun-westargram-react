@@ -1,5 +1,7 @@
 import './Main.scss';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FiSend } from 'react-icons/fi';
+import { FaRegHeart, FaRegComment } from 'react-icons/fa';
+import { VscBookmark } from 'react-icons/vsc';
 
 function Main() {
   return (
@@ -45,32 +47,20 @@ function Main() {
               </div>
               <div className='feedImg'></div>
               <div className='feedBottom'>
-                <div className='icon'>
+                <div className='iconBox'>
                   <div className='iconLeft'>
                     <button>
-                      <img alt='' src='img/heart (1).png' />
+                      <FaRegHeart className='icon' />
                     </button>
                     <button>
-                      <img
-                        className=''
-                        alt='comment icon'
-                        src='img/comment.png'
-                      />
+                      <FaRegComment className='icon' />
                     </button>
                     <button>
-                      <img
-                        className=''
-                        alt='navigator icon'
-                        src='img/navigator.png'
-                      />
+                      <FiSend className='icon' />
                     </button>
                   </div>
                   <button>
-                    <img
-                      className='bookmarkIcon'
-                      src='img/bookmark.png'
-                      alt=''
-                    />
+                    <VscBookmark className='icon' />
                   </button>
                 </div>
                 <div className='likes'>
