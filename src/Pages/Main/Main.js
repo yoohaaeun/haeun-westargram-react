@@ -6,7 +6,7 @@ import { VscBookmark } from 'react-icons/vsc';
 function Main() {
   return (
     <div className='main'>
-      <nav>
+      <nav className='mainNav'>
         <div className='logoContainer'>
           <div className='logo'>
             <img alt='Westargram logo' src='img/instagram.png' />
@@ -34,8 +34,8 @@ function Main() {
         </div>
       </nav>
 
-      <main>
-        <section className='mainContainer'>
+      <main className='mainContainer'>
+        <section className='mainSection'>
           <div className='feeds'>
             <article>
               <div className='feedHeader'>
@@ -59,7 +59,7 @@ function Main() {
                       <FiSend className='icon' />
                     </button>
                   </div>
-                  <button>
+                  <button className='iconRight'>
                     <VscBookmark className='icon' />
                   </button>
                 </div>
@@ -152,7 +152,7 @@ function Main() {
                   <div className='imgAndUserInfo'>
                     <img src='img/user2.JPG' alt='' />
                     <div className='userInfo'>
-                      <span>summer</span>
+                      <strong>spring</strong>
                       <span>areyouberry님 외 2명이 ...</span>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ function Main() {
                   <div className='imgAndUserInfo'>
                     <img src='img/user2.JPG' alt='' />
                     <div className='userInfo'>
-                      <span>summer</span>
+                      <strong>summer</strong>
                       <span>areyouberry님 외 2명이 ...</span>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ function Main() {
                   <div className='imgAndUserInfo'>
                     <img src='img/user2.JPG' alt='' />
                     <div className='userInfo'>
-                      <span>summer</span>
+                      <strong>winter</strong>
                       <span>areyouberry님 외 2명이 ...</span>
                     </div>
                   </div>
